@@ -1,0 +1,19 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-react-jsx": "^7.10.1"
+  },
+  "scripts": {
+    "babel": "babel -o index.js",
+    "latest": "babel -o index.js $(ls -l *.js -cr | grep -v index | head -n 1 | cut -d' ' -f9)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
